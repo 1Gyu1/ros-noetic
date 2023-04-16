@@ -1,0 +1,18 @@
+# Copyright 2021, Pick-It NV.
+# All rights reserved.
+
+# List of tool IDs.
+string[] tool_ids
+
+# List of corresponding tool URDFs.
+string[] tool_urdfs
+---
+uint8 STATUS_GENERAL_FAILURE    = 0
+uint8 STATUS_OK                 = 1
+uint8 STATUS_INVALID_ID         = 2
+uint8 STATUS_INVALID_URDF       = 3
+uint8 STATUS_INVALID_MESH       = 4
+uint8 STATUS_INVALID_MESH_SCALE = 5
+
+# Status for each tool ID, given in the same order as in the request.
+uint8[] tool_status

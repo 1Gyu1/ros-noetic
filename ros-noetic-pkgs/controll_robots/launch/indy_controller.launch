@@ -1,0 +1,5 @@
+<launch>
+  <node name="task_controller_indy" pkg="controll_robots" type="indy_task_controller.py" output="screen"/>
+  <node name="joint_controller_indy" pkg="controll_robots" type="indy_joint_controller.py" output="screen"/>
+  <node name="cmd_talker" pkg="controll_robots" type="indy_controller_cmd.py" output="screen"/>
+</launch>

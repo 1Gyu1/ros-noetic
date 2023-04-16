@@ -1,0 +1,18 @@
+# Copyright 2021, Pick-It NV.
+# All rights reserved.
+
+int32[]               indices
+sensor_msgs/Image     rgb_image
+sensor_msgs/Image     depth_image
+uint32[2]             image_size
+float64               minimum_score
+bool                  disable_negative_model
+bool                  overlap_allowed
+---
+bool                  success
+sensor_msgs/Image     img_mask
+PointIndices[]        clusters
+float64[]             angles
+float64[]             scores
+uint32[]              px
+uint32[]              py

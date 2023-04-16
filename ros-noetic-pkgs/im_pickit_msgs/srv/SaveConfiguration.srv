@@ -1,0 +1,13 @@
+# Copyright 2021, Pick-It NV.
+# All rights reserved.
+
+string    destination         # Name of the new configuration.
+bool      set_active          # Boolean indicating whether the newly saved configuration should be loaded.
+---
+uint8 STATUS_SUCCESS          = 10
+uint8 STATUS_FAILURE          = 20  # General failure (in case not known).
+uint8 STATUS_NOT_WRITABLE     = 21  # Use this status once we can detect that saving a configuration failed because of this.
+uint8 STATUS_INVALID_FILENAME = 22
+
+uint8     status              # Return status indicating success / failure.
+string    message             # Informational, e.g. for error messages.

@@ -1,0 +1,11 @@
+# Copyright 2021, Pick-It NV.
+# All rights reserved.
+
+# Possible mode.
+uint8 MARKERS_OFF = 1
+uint8 MARKERS_LIVE = 2
+uint8 MARKERS_COLLECT = 3
+
+uint8 mode
+---
+bool      success # indicate successful run of triggered service

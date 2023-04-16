@@ -1,0 +1,51 @@
+# Copyright 2021, Pick-It NV.
+# All rights reserved.
+
+# The following ROI teaching methods are supported. METHOD_MARKERS sets both the
+# reference frame location and ROI bounds. All others set the reference frame
+# location only:
+#
+# METHOD_CAMERA places the reference frame origin at the camera frame, with the
+# X-axes aligned and the Z-axis pointing towards the camera.
+# The reference frame is by default at the bottom-center of the ROI.
+#
+# METHOD_DOMINANT_PLANE estimates the scene dominant plane and places the
+# reference frame origin at the center of this plane, with the XY axes aligned
+# with the principal plane directions, and the Z-axis normal to the plane,
+# pointing toward the camera.
+# The reference frame is by default at the bottom-center of the ROI.
+#
+# METHOD_MARKERS uses three fiducial markers placed in an "L" pattern to
+# determine both the location of the reference frame, as well as its XY
+# dimensions. The Z height is set to a constant value.
+# The reference frame coincides with the ROI corner made by the markers (the "L"
+# pattern corner).
+#
+# METHOD_MANUAL sets the new reference frame location from the 'o_T_ref'
+# argument.
+uint8 METHOD_CAMERA = 1
+uint8 METHOD_DOMINANT_PLANE = 2
+uint8 METHOD_MARKERS = 3
+uint8 METHOD_DETECT_BIN = 4
+uint8 METHOD_MANUAL = 10
+
+uint8 method
+
+# New reference frame location, only used by METHOD_MANUAL.
+# The origin 'o' of the transform, i.e. the value of header.frame_id corresponds
+# to the frame in which the transform is expressed, which can typically be:
+# - 'pickit/robot_base': The robot base.
+# - 'pickit/reference': The previous reference frame, ie. the transform is the
+#    offset from the old to the new reference frame location.
+# - '<camera_namespace>/<camera_namespace>_rgb_optical_frame': The camera
+#    optical frame.
+geometry_msgs/TransformStamped o_T_ref
+
+# Bounds (min/max in XYZ) of the ROI to be taught, relative to the reference frame.
+# NOTE: Currently unused.
+geometry_msgs/Vector3 roi_box_min
+geometry_msgs/Vector3 roi_box_max
+
+---
+bool success
+string message

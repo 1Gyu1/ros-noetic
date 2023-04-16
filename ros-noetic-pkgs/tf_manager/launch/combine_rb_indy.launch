@@ -1,0 +1,7 @@
+<launch>
+
+  <!-- Subscribe positions of points and camera, then broadcast frame each of them. -->
+  <node pkg="tf_manager" type="rb_rel_indy_publisher.py" name="rb_rel_indy_publisher" respawn="true" output="screen" />
+  <node pkg="tf_manager" type="rb_rel_indy_broadcaster.py" name="rb_rel_indy_broadcaster" respawn="true" output="screen" />
+  
+</launch>

@@ -1,0 +1,18 @@
+# Copyright 2021, Pick-It NV.
+# All rights reserved.
+
+# Where pick frames will be placed on the shape.
+# This is a bitflag that can contain a combination of the following values
+# (defined the object structure's pick strategy enum):
+# Center = 1
+# Surface = 2
+# Cylinder caps = 4
+uint32 model_id
+uint8 pick_frame_locations
+
+---
+uint8 STATUS_FAILURE             = 0
+uint8 STATUS_SUCCESS             = 1
+uint8 STATUS_SHAPE_NOT_SUPPORTED = 2
+
+uint8 status   # Status value.

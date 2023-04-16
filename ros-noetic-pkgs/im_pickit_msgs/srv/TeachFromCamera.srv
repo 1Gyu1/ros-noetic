@@ -1,0 +1,8 @@
+# Copyright 2021, Pick-It NV.
+# All rights reserved.
+
+uint32    model_id
+---
+uint32    model_id
+bool      success # indicate successful run of triggered service
+string    message # informational, e.g. for error messages

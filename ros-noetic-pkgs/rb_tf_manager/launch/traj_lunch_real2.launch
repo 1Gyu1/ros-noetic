@@ -1,0 +1,8 @@
+<launch>
+
+  <!-- Subscribe positions of points and camera, then broadcast frame each of them. -->
+  <node pkg="rb_tf_manager" type="traj_broadcaster.py" name="traj_broadcaster" respawn="true" output="screen" />
+  <node pkg="rb_tf_manager" type="traj_publisher_real2.py" name="traj_publisher_real2" respawn="true" output="screen" />
+  <node pkg="rb_tf_manager" type="object_publisher.py" name="object_publisher" respawn="true" output="screen" />
+
+</launch>

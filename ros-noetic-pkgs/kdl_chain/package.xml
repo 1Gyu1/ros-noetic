@@ -1,0 +1,15 @@
+<package format="2">
+  <name>kdl_chain</name>
+  <version>0.0.0</version>
+  <description>KDL example 1. kdl_chain</description>
+  <license>Closed</license>
+  <maintainer email="koosy@pickit3d.com"></maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>message_generation</depend>
+  <depend>message_runtime</depend>
+
+  <depend>geometry_msgs</depend>
+  <depend>rospy</depend>
+  <depend>pykdl</depend>
+</package>

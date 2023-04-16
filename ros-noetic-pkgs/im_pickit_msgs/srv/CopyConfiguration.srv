@@ -1,0 +1,13 @@
+# Copyright 2021, Pick-It NV.
+# All rights reserved.
+
+string source           # Name of the configuration that is to be copied.
+string destination      # Name of the configuration that will be newly created.
+---
+uint8 STATUS_FAILURE = 0
+uint8 STATUS_SUCCESS = 1
+uint8 STATUS_SOURCE_MISSING = 2
+uint8 STATUS_DESTINATION_EXISTS = 3
+uint8 STATUS_INVALID_FILENAME = 4
+
+uint8 status

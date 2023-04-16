@@ -1,0 +1,7 @@
+<launch>
+    <group ns="indy7">
+        <node name="task_controller" pkg="controll_robots" type="TaskController_indy7.py" output="screen"/>
+        <node name="joint_controller" pkg="controll_robots" type="JointController_indy7.py" output="screen"/>
+        <node name="cmd_talker" pkg="controll_robots" type="Controller_cmd.py" output="screen"/>
+    </group>
+</launch>

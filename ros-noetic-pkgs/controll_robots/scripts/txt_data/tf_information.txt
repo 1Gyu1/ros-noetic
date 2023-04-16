@@ -1,0 +1,245 @@
+%time,field.transforms0.header.seq,field.transforms0.header.stamp,field.transforms0.header.frame_id,field.transforms0.child_frame_id,field.transforms0.transform.translation.x,field.transforms0.transform.translation.y,field.transforms0.transform.translation.z,field.transforms0.transform.rotation.x,field.transforms0.transform.rotation.y,field.transforms0.transform.rotation.z,field.transforms0.transform.rotation.w,
+field.transforms1.header.seq,field.transforms1.header.stamp,field.transforms1.header.frame_id,field.transforms1.child_frame_id,field.transforms1.transform.translation.x,field.transforms1.transform.translation.y,field.transforms1.transform.translation.z,field.transforms1.transform.rotation.x,field.transforms1.transform.rotation.y,field.transforms1.transform.rotation.z,field.transforms1.transform.rotation.w
+1644385400426689624,0,1644383752478271731,world,link0,0.0,0.0,0.1,0.0,0.0,0.0,1.0,0,
+1644383752478279668,link6,tcp,0.0,0.0,0.06,0.0,0.0,0.0,1.0
+
+
+transforms: 
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 1644382605
+        nsecs: 414662015
+      frame_id: "world"
+    child_frame_id: "link0"
+    transform: 
+      translation: 
+        x: 0.0
+        y: 0.0
+        z: 0.1
+      rotation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 1644382605
+        nsecs: 414685097
+      frame_id: "tcp"
+    child_frame_id: "robotiq_85_base_link"
+    transform: 
+      translation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      rotation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 1644382605
+        nsecs: 414687208
+      frame_id: "left_outer_knuckle"
+    child_frame_id: "left_outer_finger"
+    transform: 
+      translation: 
+        x: 0.0316910442266543
+        y: 0.0
+        z: -0.00193396375724605
+      rotation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 1644382605
+        nsecs: 414691572
+      frame_id: "right_outer_knuckle"
+    child_frame_id: "right_outer_finger"
+    transform: 
+      translation: 
+        x: 0.0317095909367246
+        y: 0.0
+        z: -0.0016013564954687
+      rotation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 1644382605
+        nsecs: 414692454
+      frame_id: "link6"
+    child_frame_id: "tcp"
+    transform: 
+      translation: 
+        x: 0.0
+        y: 0.0
+        z: 0.06
+      rotation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+---
+
+##############################################################
+
+
+Indy7 - REAL robot
+
+
+#############################################################
+
+%time,
+field.transforms0.header.seq,field.transforms0.header.stamp,field.transforms0.header.frame_id,field.transforms0.child_frame_id,field.transforms0.transform.translation.x,field.transforms0.transform.translation.y,field.transforms0.transform.translation.z,field.transforms0.transform.rotation.x,field.transforms0.transform.rotation.y,field.transforms0.transform.rotation.z,field.transforms0.transform.rotation.w,
+
+field.transforms1.header.seq,field.transforms1.header.stamp,field.transforms1.header.frame_id,field.transforms1.child_frame_id,field.transforms1.transform.translation.x,field.transforms1.transform.translation.y,field.transforms1.transform.translation.z,field.transforms1.transform.rotation.x,field.transforms1.transform.rotation.y,field.transforms1.transform.rotation.z,field.transforms1.transform.rotation.w,
+
+field.transforms2.header.seq,field.transforms2.header.stamp,field.transforms2.header.frame_id,field.transforms2.child_frame_id,field.transforms2.transform.translation.x,field.transforms2.transform.translation.y,field.transforms2.transform.translation.z,field.transforms2.transform.rotation.x,field.transforms2.transform.rotation.y,field.transforms2.transform.rotation.z,field.transforms2.transform.rotation.w,
+
+field.transforms3.header.seq,field.transforms3.header.stamp,field.transforms3.header.frame_id,field.transforms3.child_frame_id,field.transforms3.transform.translation.x,field.transforms3.transform.translation.y,field.transforms3.transform.translation.z,field.transforms3.transform.rotation.x,field.transforms3.transform.rotation.y,field.transforms3.transform.rotation.z,field.transforms3.transform.rotation.w,
+
+field.transforms4.header.seq,field.transforms4.header.stamp,field.transforms4.header.frame_id,field.transforms4.child_frame_id,field.transforms4.transform.translation.x,field.transforms4.transform.translation.y,field.transforms4.transform.translation.z,field.transforms4.transform.rotation.x,field.transforms4.transform.rotation.y,field.transforms4.transform.rotation.z,field.transforms4.transform.rotation.w,
+
+field.transforms5.header.seq,field.transforms5.header.stamp,field.transforms5.header.frame_id,field.transforms5.child_frame_id,field.transforms5.transform.translation.x,field.transforms5.transform.translation.y,field.transforms5.transform.translation.z,field.transforms5.transform.rotation.x,field.transforms5.transform.rotation.y,field.transforms5.transform.rotation.z,field.transforms5.transform.rotation.w
+
+1644385380201266765,0,
+1644385380126658678,link0,link1,0.0,0.0,0.0775,0.0,0.0,9.111972655186944e-06,0.9999999999584859,0,
+
+1644385380126658678,link1,link2,0.0,-0.109,0.222,0.4999988114804149,0.5000011885167599,-0.5000011885167597,0.49999881148041503,0,
+
+1644385380126658678,link2,link3,-0.45,0.0,-0.0305,0.0,0.0,-0.707105380503098,0.7071081818672225,0,
+
+1644385380126658678,link3,link4,-0.267,0.0,-0.075,-0.5000007119336459,-0.4999992880653403,0.5000007119336459,0.4999992880653405,0,
+
+1644385380126658678,link4,link5,0.0,-0.114,0.083,6.712179197067022e-07,0.7071067811862289,-0.7071067811862289,6.712179198637114e-07,0,
+
+1644385380126658678,link5,link6,-0.168,0.0,0.069,-0.5000007119336459,-0.4999992880653403,0.5000007119336459,0.4999992880653405
+
+
+
+transforms: 
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 1644383813
+        nsecs: 302265167
+      frame_id: "link0"
+    child_frame_id: "link1"
+    transform: 
+      translation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0775
+      rotation: 
+        x: 0.0
+        y: 0.0
+        z: 8.715799931058642e-06
+        w: 0.9999999999620173
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 1644383813
+        nsecs: 302265167
+      frame_id: "link1"
+    child_frame_id: "link2"
+    transform: 
+      translation: 
+        x: 0.0
+        y: -0.109
+        z: 0.222
+      rotation: 
+        x: 0.49999861339354285
+        y: 0.5000013866026118
+        z: -0.5000013866026116
+        w: 0.49999861339354296
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 1644383813
+        nsecs: 302265167
+      frame_id: "link2"
+    child_frame_id: "link3"
+    transform: 
+      translation: 
+        x: -0.45
+        y: 0.0
+        z: -0.0305
+      rotation: 
+        x: 0.0
+        y: 0.0
+        z: -0.7071062209135226
+        w: 0.7071073414591286
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 1644383813
+        nsecs: 302265167
+      frame_id: "link3"
+    child_frame_id: "link4"
+    transform: 
+      translation: 
+        x: -0.267
+        y: 0.0
+        z: -0.075
+      rotation: 
+        x: -0.5000004746225433
+        y: -0.4999995253770061
+        z: 0.5000004746225433
+        w: 0.4999995253770063
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 1644383813
+        nsecs: 302265167
+      frame_id: "link4"
+    child_frame_id: "link5"
+    transform: 
+      translation: 
+        x: 0.0
+        y: -0.114
+        z: 0.083
+      rotation: 
+        x: 1.6780448541076904e-06
+        y: 0.7071067811845564
+        z: -0.7071067811845564
+        w: 1.6780448542646998e-06
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 1644383813
+        nsecs: 302265167
+      frame_id: "link5"
+    child_frame_id: "link6"
+    transform: 
+      translation: 
+        x: -0.168
+        y: 0.0
+        z: 0.069
+      rotation: 
+        x: -0.500000949244636
+        y: -0.4999990507535617
+        z: 0.500000949244636
+        w: 0.49999905075356194
+---

@@ -1,0 +1,11 @@
+# Copyright 2021, Pick-It NV.
+# All rights reserved.
+
+uint16      type
+int32       old_file_id
+int32       new_file_id
+string      old_filename
+string      new_filename
+---
+bool        success
+string      message

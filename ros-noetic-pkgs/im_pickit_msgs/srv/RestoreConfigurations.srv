@@ -1,0 +1,12 @@
+# Copyright 2021, Pick-It NV.
+# All rights reserved.
+
+string path
+---
+uint8 STATUS_GENERAL_FAILURE = 0
+uint8 STATUS_SUCCESS = 1
+uint8 STATUS_INVALID_PATH = 2
+uint8 STATUS_MIGRATION_FAILED = 3
+uint8 STATUS_RESET_FAILED = 4
+
+uint8 status

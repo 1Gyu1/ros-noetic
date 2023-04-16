@@ -1,0 +1,5 @@
+<launch>
+    <group ns="rb10">
+        <node name="cmd_talker" pkg="controll_robots" type="Controller_cmd.py" output="screen"/>
+    </group>
+</launch>

@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: rb_description
+    relative_path: urdf/rb10_moveit.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/rb10.srdf
+  CONFIG:
+    author_name: rainbow-robotics.com
+    author_email: rainbow-robotics@rainbow.com
+    generated_timestamp: 1638875875

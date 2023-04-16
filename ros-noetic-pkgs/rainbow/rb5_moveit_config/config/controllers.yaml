@@ -1,0 +1,32 @@
+# controller_list:
+#   - name: ""
+#     action_ns: joint_trajectory_action
+#     type: FollowJointTrajectory
+#     joints: [base, shoulder, elbow, wrist1, wrist2, wrist3]
+
+
+controller_list:
+  - name: ""
+    action_ns: follow_joint_trajectory #follow_joint_trajectory
+    type: FollowJointTrajectory
+    default : true
+    joints:
+      - base
+      - shoulder
+      - elbow
+      - wrist1
+      - wrist2
+      - wrist3
+     
+# rb_joint_trajectory_controller:
+#   type: position_controllers/JointTrajectoryController
+#   joints:
+#     - base
+#     - shoulder
+#     - elbow
+#     - wrist1
+#     - wrist2
+#     - wrist3
+#   publish_rate: 20
+
+

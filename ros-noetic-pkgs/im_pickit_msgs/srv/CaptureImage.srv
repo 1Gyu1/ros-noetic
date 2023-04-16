@@ -1,0 +1,21 @@
+# Copyright 2021, Pick-It NV.
+# All rights reserved.
+
+---
+# Possible image capture statuses.
+uint8 STATUS_SUCCESS = 1
+uint8 STATUS_FAILURE = 2
+uint8 STATUS_NO_ACTIVE_CAMERA = 11
+uint8 STATUS_TIMEOUT_EXCEEDED = 12
+
+# Image capture status.
+uint8 status
+
+# Image capture timestamp.
+# To use this field from another computer, the clocks must be synchronized.
+time stamp
+
+# Image capture duration: Since image capture time to sending the respose.
+# This is an alternative to using the stamp for systems with non-synchronized
+# clocks, but neglects service calling latency.
+duration capture_duration

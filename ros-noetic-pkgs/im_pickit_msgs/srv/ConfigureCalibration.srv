@@ -1,0 +1,25 @@
+# Copyright 2021, Pick-It NV.
+# All rights reserved.
+
+uint8 METHOD_SINGLE_POSE  = 0   # Configures Pickit for single-pose calibration. Enables marker detection for consecutive pose collection requests.
+uint8 METHOD_MULTI_POSE   = 1   # Configures Pickit for multi-pose calibration. Enables marker detection for consecutive pose collection requests.
+uint8 METHOD_MANUAL       = 2   # Calibration is known by design. In this case a valid robot_T_camera has to be specified.
+uint8 METHOD_DEFAULT      = 3   # Use whatever has been set in the user interface.
+
+uint8 CAMERA_MOUNT_FIXED    = 0 # Camera is mounted fixed wrt. the robot base.
+uint8 CAMERA_MOUNT_ON_ROBOT = 1 # Camera is mounted on the robot (fixed wrt. the robot flange).
+
+uint8 method
+uint8 camera_mount
+
+# Transform that has a different meaning depending on the chosen method:
+# - For METHOD_SINGLE_POSE this is the helper transformation robot_flange_T_calibration_target
+# - For METHOD_MANUAL this is the full calibration transform. The pose shall be either expressed
+#   in the robot base frame (CAMERA_MOUNT_FIXED) or the robot flange frame (CAMERA_MOUNT_ON_ROBOT).
+geometry_msgs/Transform transform
+---
+uint8 STATUS_GENERAL_FAILURE        = 0  # General failure.
+uint8 STATUS_INVALID_CONFIGURATION  = 1  # The given request arguments are not valid (or the combination not allowed).
+uint8 STATUS_SUCCESS                = 2  # Success.
+
+uint8 status

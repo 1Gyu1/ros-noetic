@@ -1,0 +1,19 @@
+# Copyright 2021, Pick-It NV.
+# All rights reserved.
+
+---
+uint8 STATUS_GENERAL_FAILURE        = 0  # General failure.
+uint8 STATUS_SUCCESS                = 1  # Success.
+uint8 STATUS_WARNING                = 2  # Success with warning.
+
+uint8 status
+
+# maximum distance error and maximum angle error in plate frame,
+# from the validation of the calibration poses.
+float64 distance
+
+float64 angle
+
+# Resulting calibration transform. The header frame is either pickit/robot_base (CAMERA_FIXED)
+# or pickit/robot_ee (CAMERA_ON_ROBOT). The child frame is the optical frame of the camera.
+geometry_msgs/TransformStamped transform

@@ -1,0 +1,7 @@
+# Copyright 2021, Pick-It NV.
+# All rights reserved.
+
+uint32   model_id
+uint32   submodel_id
+---
+bool     success

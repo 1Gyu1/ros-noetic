@@ -1,0 +1,7 @@
+<launch>
+  <node name="task_controller_indy7" pkg="controll_robots" type="TaskController_indy7.py" output="screen"/>
+  <node name="joint_controller_indy7" pkg="controll_robots" type="JointController_indy7.py" output="screen"/>
+  <node name="task_controller_rb10" pkg="controll_robots" type="TaskController_rb10.py" output="screen"/>
+  <node name="joint_controller_rb10" pkg="controll_robots" type="JointController_rb10.py" output="screen"/>
+  <node name="cmd_talker" pkg="controll_robots" type="Controller_cmd.py" output="screen"/>
+</launch>

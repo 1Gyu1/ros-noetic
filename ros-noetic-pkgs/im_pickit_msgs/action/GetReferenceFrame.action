@@ -1,0 +1,27 @@
+# Copyright 2021, Pick-It NV.
+# All rights reserved.
+
+uint8 MARKER_TYPE_ROI = 1
+uint8 MARKER_TYPE_CALIBRATION = 2
+
+# The marker type to look for.
+uint8 marker_type
+
+# Number of samples.
+uint8 n_marker_samples
+
+# Determines if the camera is mounted fixed wrt. the robot base or the robot flange.
+# Possible values are pickit/robot_base or pickit/robot_ee.
+# Only relevant for MARKER_TYPE_CALIBRATION, as for ROI teaching it does not matter.
+string camera_mount
+---
+geometry_msgs/PoseStamped camera_T_reference  # Pose of the reference frame wrt. the camera frame.
+
+# The following fields are only used when searching for ROI markers.
+float32 roi_box_x_min
+float32 roi_box_x_max
+float32 roi_box_y_min
+float32 roi_box_y_max
+---
+int32 n_seen_markers
+int32 n_required_markers

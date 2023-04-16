@@ -1,0 +1,6 @@
+# Copyright 2021, Pick-It NV.
+# All rights reserved.
+
+---
+bool           success # indicate successful run of triggered service.
+ObjectArray    objects # Array containing the objects.

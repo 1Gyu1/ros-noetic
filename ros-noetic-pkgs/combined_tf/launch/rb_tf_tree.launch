@@ -1,0 +1,8 @@
+<launch>
+
+  <!-- Subscribe positions of objects and camera, then broadcast frame each of them. -->
+  <node pkg="combined_tf" type="object_publisher.py" name="object_publisher" respawn="true" output="screen" />
+  <node pkg="combined_tf" type="rb_calib.py" name="rb_base_publisher" respawn="true" output="screen" />
+  <node pkg="combined_tf" type="rb_tf_manager.py" name="rb_tf_manager" respawn="true" output="screen" />
+  
+</launch>

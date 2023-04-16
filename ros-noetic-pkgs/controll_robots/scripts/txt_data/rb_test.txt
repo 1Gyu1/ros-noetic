@@ -1,0 +1,49 @@
+header: 
+  seq: 19
+  stamp: 
+    secs: 1645006268
+    nsecs: 646437405
+  frame_id: ''
+cmd: "task pause"
+---
+header: 
+  seq: 20
+  stamp: 
+    secs: 1645006271
+    nsecs:  98355117
+  frame_id: ''
+cmd: "task stop"
+---
+header: 
+  seq: 21
+  stamp: 
+    secs: 1645006272
+    nsecs: 369125598
+  frame_id: ''
+cmd: "task resume_a"
+---
+header: 
+  seq: 22
+  stamp: 
+    secs: 1645006273
+    nsecs: 249047177
+  frame_id: ''
+cmd: "task resume_b"
+---
+header: 
+  seq: 23
+  stamp: 
+    secs: 1645006274
+    nsecs: 345808133
+  frame_id: ''
+cmd: "sdw default_speed 0.220"
+---
+header: 
+  seq: 1
+  stamp: 
+    secs: 0
+    nsecs:         0
+  frame_id: ''
+cmd: "jointall 0.300, 0.100, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0"
+---
+

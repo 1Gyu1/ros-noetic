@@ -1,0 +1,4 @@
+<launch>
+  <node name="TEST_UI" pkg="controll_robots" type="test_UI.py" output="screen"/>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find controll_robots)/launch/prepick_pose_test.rviz"/>
+</launch>

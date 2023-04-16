@@ -1,0 +1,16 @@
+# Copyright 2021, Pick-It NV.
+# All rights reserved.
+
+---
+uint8 STATUS_SUCCESS = 0  # Success.
+uint8 STATUS_WARNING = 1  # Success with warning.
+uint8 STATUS_FAILURE = 2  # Detection failed.
+
+uint8 status
+# distance and angle in plate frame.
+float64 distance
+
+float64 angle
+
+# Validation error in robot frame (robot flange if camera on robot or robot base if fixed camera).
+geometry_msgs/TransformStamped transform

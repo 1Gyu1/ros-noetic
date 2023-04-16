@@ -1,0 +1,110 @@
+transforms: 
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 1645520593
+        nsecs: 646316766
+      frame_id: "link0"
+    child_frame_id: "link1"
+    transform: 
+      translation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0775
+      rotation: 
+        x: 0.0
+        y: 0.0
+        z: -2.3770363448620318e-06
+        w: 0.9999999999971747
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 1645520593
+        nsecs: 646316766
+      frame_id: "link1"
+    child_frame_id: "link2"
+    transform: 
+      translation: 
+        x: 0.0
+        y: -0.109
+        z: 0.222
+      rotation: 
+        x: 0.4999883127680506
+        y: 0.500011686958773
+        z: -0.5000116869587728
+        w: 0.4999883127680507
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 1645520593
+        nsecs: 646316766
+      frame_id: "link2"
+    child_frame_id: "link3"
+    transform: 
+      translation: 
+        x: -0.45
+        y: 0.0
+        z: -0.0305
+      rotation: 
+        x: 0.0
+        y: 0.0
+        z: 2.8128263410518026e-05
+        w: 0.9999999996044002
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 1645520593
+        nsecs: 646316766
+      frame_id: "link3"
+    child_frame_id: "link4"
+    transform: 
+      translation: 
+        x: -0.267
+        y: 0.0
+        z: -0.075
+      rotation: 
+        x: -0.5
+        y: -0.4999999999999999
+        z: 0.5
+        w: 0.5000000000000001
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 1645520593
+        nsecs: 646316766
+      frame_id: "link4"
+    child_frame_id: "link5"
+    transform: 
+      translation: 
+        x: 0.0
+        y: -0.114
+        z: 0.083
+      rotation: 
+        x: 0.5000064073663202
+        y: 0.4999935925515702
+        z: -0.4999935925515701
+        w: 0.5000064073663202
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 1645520593
+        nsecs: 646316766
+      frame_id: "link5"
+    child_frame_id: "link6"
+    transform: 
+      translation: 
+        x: -0.168
+        y: 0.0
+        z: 0.069
+      rotation: 
+        x: -0.5
+        y: -0.4999999999999999
+        z: 0.5
+        w: 0.5000000000000001
+---

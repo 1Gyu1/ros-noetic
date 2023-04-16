@@ -1,0 +1,8 @@
+# Copyright 2021, Pick-It NV.
+# All rights reserved.
+
+string    config_file_path # filepath where to save the settings
+bool      is_active_product  # use to reset unsaved changes
+---
+bool      success # indicate successful run of triggered service
+string    message # informational, e.g. for error messages

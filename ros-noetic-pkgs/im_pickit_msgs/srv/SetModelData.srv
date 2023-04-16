@@ -1,0 +1,10 @@
+# Copyright 2021, Pick-It NV.
+# All rights reserved.
+
+uint32      model_id
+Model       model
+---
+uint8 STATUS_SUCCESS = 1
+uint8 STATUS_INVALID_DATA = 11
+string    message # informational, e.g. for error messages
+uint8     status   # Status value.

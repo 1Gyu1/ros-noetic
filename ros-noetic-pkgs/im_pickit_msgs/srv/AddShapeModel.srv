@@ -1,0 +1,24 @@
+# Copyright 2021, Pick-It NV.
+# All rights reserved.
+
+shape_msgs/SolidPrimitive shape
+
+# If shape is CYLINDER, then we assume
+#   radius = shape.dimensions[0]
+#   length = shape.dimensions[1]
+
+uint32 model_id
+
+# If the shape is being re-taught from the robot, this flag is true.
+# In that case, the following constraints apply:
+# - The model ID must be 1.
+# - The detection engine must be Teach.
+# - The active product must have only one enabled model of type Cylinder.
+bool robot_reteach
+---
+uint8 STATUS_FAILURE             = 0
+uint8 STATUS_SUCCESS             = 1
+uint8 STATUS_SHAPE_NOT_SUPPORTED = 2
+
+uint32 model_id
+uint8  status   # Status value.

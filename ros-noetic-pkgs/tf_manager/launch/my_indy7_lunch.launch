@@ -1,0 +1,7 @@
+<launch>
+
+  <!-- Subscribe positions of points and camera, then Broadcast frame each of them. -->
+  <node pkg="indy7_robotiq_moveit_config" type="point_publisher.py" name="point1_publisher" respawn="true" output="screen" />y
+  <node pkg="indy7_robotiq_moveit_config" type="tf_broadcaster.py" name="point_broadcaster" respawn="true" output="screen" />
+
+</launch>

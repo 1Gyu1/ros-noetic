@@ -1,0 +1,9 @@
+# Copyright 2021, Pick-It NV.
+# All rights reserved.
+
+bool               load_camera          # Load the snapshot camera if set.
+bool               load_configuration   # Load the snapshot configuration if set.
+string             path                 # Path to the snapshot.
+---
+bool               success              # Indicate successful run of triggered service.
+string             message              # Informational, e.g. for error messages.

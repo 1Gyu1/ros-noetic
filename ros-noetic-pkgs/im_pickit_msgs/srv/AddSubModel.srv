@@ -1,0 +1,6 @@
+# Copyright 2021, Pick-It NV.
+# All rights reserved.
+
+uint32   model_id  # model id for which to add the submodel
+---
+bool     success

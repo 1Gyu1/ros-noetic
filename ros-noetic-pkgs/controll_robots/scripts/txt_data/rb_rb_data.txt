@@ -1,0 +1,40 @@
+header: 
+  seq: 13586
+  stamp: 
+    secs: 1645067101
+    nsecs: 437386811
+  frame_id: ''
+command_on_passing: 0
+time: 3.0744488307286487e-41
+joint_reference: [-90.0, 11.851205825805664, -157.37490844726562, 108.510986328125, 90.0, 0.0]
+joint_encoder: [-90.0, 11.851093292236328, -157.37490844726562, 108.510986328125, 90.0, 0.0]
+joint_current: [-0.36000001430511475, 0.41999998688697815, 2.5480000972747803, 0.32600000500679016, -0.16099999845027924, 0.05299999937415123]
+tcp_reference: [-156.06410217285156, -89.6916275024414, 470.9058837890625, 142.98727416992188, -0.019948652014136314, -0.01920059137046337]
+temperature: [32.0, 32.0, 38.0, 36.0, 38.0, 38.0]
+joint_information: [16777223, 16777223, 16777223, 16777223, 16777223, 16777223]
+analog_in: [2.549999952316284, 2.549999952316284, 2.549999952316284, 2.549999952316284]
+analog_out: [0.0, 0.0, 0.0, 0.0]
+digital_in: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+digital_out: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+tfb_analog_in: [0.0, 0.0]
+tfb_digital_in: [0, 0]
+tfb_digital_out: [0, 0]
+tfb_voltage_out: 0.0
+default_speed: 0.18000000715255737
+task_state: 1
+robot_state: 1
+power_state: 1073741951
+collision_detect: 1
+freedrive_mode: 0
+program_mode: 1
+op_stat_collision_occur: 0
+op_stat_sos_flag: 0
+op_stat_self_collision: 0
+op_stat_soft_estop_occur: 0
+op_stat_ems_flag: 0
+joint_simulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+tcp_simulation: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+---
+ ~  rostopic echo /rb_data -p -n 1
+%time,field.header.seq,field.header.stamp,field.header.frame_id,field.command_on_passing,field.time,field.joint_reference0,field.joint_reference1,field.joint_reference2,field.joint_reference3,field.joint_reference4,field.joint_reference5,field.joint_encoder0,field.joint_encoder1,field.joint_encoder2,field.joint_encoder3,field.joint_encoder4,field.joint_encoder5,field.joint_current0,field.joint_current1,field.joint_current2,field.joint_current3,field.joint_current4,field.joint_current5,field.tcp_reference0,field.tcp_reference1,field.tcp_reference2,field.tcp_reference3,field.tcp_reference4,field.tcp_reference5,field.temperature0,field.temperature1,field.temperature2,field.temperature3,field.temperature4,field.temperature5,field.joint_information0,field.joint_information1,field.joint_information2,field.joint_information3,field.joint_information4,field.joint_information5,field.analog_in0,field.analog_in1,field.analog_in2,field.analog_in3,field.analog_out0,field.analog_out1,field.analog_out2,field.analog_out3,field.digital_in0,field.digital_in1,field.digital_in2,field.digital_in3,field.digital_in4,field.digital_in5,field.digital_in6,field.digital_in7,field.digital_in8,field.digital_in9,field.digital_in10,field.digital_in11,field.digital_in12,field.digital_in13,field.digital_in14,field.digital_in15,field.digital_out0,field.digital_out1,field.digital_out2,field.digital_out3,field.digital_out4,field.digital_out5,field.digital_out6,field.digital_out7,field.digital_out8,field.digital_out9,field.digital_out10,field.digital_out11,field.digital_out12,field.digital_out13,field.digital_out14,field.digital_out15,field.tfb_analog_in0,field.tfb_analog_in1,field.tfb_digital_in0,field.tfb_digital_in1,field.tfb_digital_out0,field.tfb_digital_out1,field.tfb_voltage_out,field.default_speed,field.task_state,field.robot_state,field.power_state,field.collision_detect,field.freedrive_mode,field.program_mode,field.op_stat_collision_occur,field.op_stat_sos_flag,field.op_stat_self_collision,field.op_stat_soft_estop_occur,field.op_stat_ems_flag,field.joint_simulation0,field.joint_simulation1,field.joint_simulation2,field.joint_simulation3,field.joint_simulation4,field.joint_simulation5,field.tcp_simulation0,field.tcp_simulation1,field.tcp_simulation2,field.tcp_simulation3,field.tcp_simulation4,field.tcp_simulation5
+1645067127222089780,13689,1645067127222089780,,0,3.0744488307286487e-41,-90.0,11.851205825805664,-157.37490844726562,108.510986328125,90.0,0.0,-90.0,11.851093292236328,-157.37490844726562,108.510986328125,90.0,0.0,-0.38999998569488525,0.4300000071525574,2.5759999752044678,0.33399999141693115,-0.13899999856948853,0.05400000140070915,-156.06410217285156,-89.6916275024414,470.9058837890625,142.98727416992188,-0.019948652014136314,-0.01920059137046337,32.0,32.0,38.0,36.0,38.0,38.0,16777223,16777223,16777223,16777223,16777223,16777223,2.549999952316284,2.549999952316284,2.549999952316284,2.549999952316284,0.0,0.0,0.0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0,0,0,0,0.0,0.18000000715255737,1,1,1073741951,1,0,1,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

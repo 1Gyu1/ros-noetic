@@ -1,0 +1,7 @@
+<launch>
+
+  <!-- Subscribe positions of points and camera, then broadcast frame each of them. -->
+  <node pkg="rb_tf_manager" type="tf_broadcaster_real.py" name="link_broadcaster_real" respawn="true" output="screen" />
+  <node pkg="rb_tf_manager" type="link_publisher.py" name="link_publisher" respawn="true" output="screen" />
+
+</launch>

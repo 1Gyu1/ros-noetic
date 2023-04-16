@@ -1,0 +1,9 @@
+# Copyright 2021, Pick-It NV.
+# All rights reserved.
+
+string    snapshot_name     # Name of the snapshot to be saved.
+string    subfolder_name    # If not empty, the snapshot will be saved in this subfolder.
+bool      robot_request     # If true, the snapshot will be saved in the `robot` subfolder.
+---
+bool      success # indicate successful run of triggered service
+string    message # informational, e.g. for error messages

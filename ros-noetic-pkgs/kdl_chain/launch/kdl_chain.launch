@@ -1,0 +1,7 @@
+<launch>
+  <node name="rviz" pkg="rviz" type="rviz"/>
+  <node name="robot_controller" pkg="kdl_chain" type="robot_controller.py" output="screen"/>
+  <node name="test_ui" pkg="kdl_chain" type="test_ui.py" output="screen"/>
+  <node name="tf_publisher" pkg="kdl_chain" type="tf_publisher.py" output="screen"/>
+  <!--node name="link_publisher" pkg="kdl_chain" type="link_publisher.py" output="screen"/-->
+</launch>
